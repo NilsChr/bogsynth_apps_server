@@ -1,8 +1,8 @@
 {
   "name": "bogsynth_netlify_server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Bogsynth apps server",
+  "main": "functions/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server-local.js",
