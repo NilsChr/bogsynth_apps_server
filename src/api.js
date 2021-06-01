@@ -6,7 +6,13 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   res.json({
-    hello: "hi!"
+    hello: "hi2! from bogysnth!!"
+  });
+});
+
+router.get("/test", (req, res) => {
+  res.json({
+    hello: "test"
   });
 });
 
