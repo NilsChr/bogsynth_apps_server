@@ -16,6 +16,12 @@ router.get("/test", (req, res) => {
   });
 });
 
+router.get("/env", (req, res) => {
+  res.json({
+    hello: "env: " + process.env.TEST_VAR
+  });
+});
+
 app.use(`/.netlify/functions/api`, router);
 
 module.exports = app;
